@@ -158,7 +158,7 @@ public class Practice11PieChartView extends View {
                 } else if (mHalfAngle < 270) {
                     mStopXLine = mPointStopX - 50;
                     mTitlePaint.setTextAlign(Paint.Align.RIGHT);
-                    canvas.drawText(pieChartData.getTitle(),mStopXLine + 10,mPointStopY,mTitlePaint);
+                    canvas.drawText(pieChartData.getTitle(),mStopXLine - 10,mPointStopY,mTitlePaint);
                     canvas.drawLine(mPointStopX,mPointStopY,mStopXLine,mPointStopY,mLinePaint);
                 }
             } else {
@@ -181,7 +181,7 @@ public class Practice11PieChartView extends View {
                 } else if (mHalfAngle < 270) {
                     mStopXLine = mPointStopX - 50;
                     mTitlePaint.setTextAlign(Paint.Align.RIGHT);
-                    canvas.drawText(pieChartData.getTitle(),mStopXLine + 10,mPointStopY,mTitlePaint);
+                    canvas.drawText(pieChartData.getTitle(),mStopXLine - 10,mPointStopY,mTitlePaint);
                     canvas.drawLine(mPointStopX,mPointStopY,mStopXLine,mPointStopY,mLinePaint);
                 }
             }
